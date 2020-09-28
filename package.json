@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "lighthouse": "^5.6.0"
+    "lighthouse": "^6.3.0"
   },
   "peerDependencies": {
     "cypress": "^3.8.3"
