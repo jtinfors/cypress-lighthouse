@@ -1,4 +1,4 @@
-l// <reference types="Cypress" />
+// <reference types="Cypress" />
 
 Cypress.Commands.add('lighthouse', (url, options) => {
   cy.exec(`$(npm bin)/lighthouse ${url} --output json`, options).then(({ stdout }) => {
